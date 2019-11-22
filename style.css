@@ -70,3 +70,49 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Section Reality */
+
+.section_reality {
+  background-color: #fff;
+}
+
+.reality__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reality__list-item {
+  width: 49%;
+}
+
+.reality__item-image,
+.reality__item-pic {
+  width: 100%;
+}
+
+.reality__item-content {
+  background-color: #fff;
+  padding: 8px;
+}
+.reality__item-info {
+  color: #42425a;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.reality__item-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Zilla Slab', serif;
+}
+
+.reality__item-link:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.reality__item-text {
+  margin-bottom: 4px;
+}
