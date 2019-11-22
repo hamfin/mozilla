@@ -114,3 +114,83 @@ body {
   right: 7%;
   top: -30%;
 }
+
+/* Mobile and Laptop Styles for Section News, section reality, section support - Anna*/
+
+@media screen and (max-width: 1200px) {
+    .support__item {
+        padding-left: 0;
+    }
+
+    .support__image {
+        width: 42%;
+        right: 0;
+        top: -6%;
+    }
+
+    .support__picture {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .news__list {
+        flex-wrap: wrap;
+    }
+    .news__list-item {
+        width: 49%;
+        margin-bottom: 10px;
+    }
+
+    .news__item-text {
+        padding: 6px;
+    }
+
+    .news__link {
+        font-size: 12px;
+    }
+
+    .reality__item-info {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .reality__item-link {
+        font-size: 17px;
+
+    }
+
+    .reality__item-text {
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+
+    .support__image {
+        display: none;
+    }
+
+    .support__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .news__list-item {
+        width: 100%;
+    }
+
+    .reality__list {
+        flex-wrap: wrap;
+    }
+
+    .reality__list-item {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .section__container {
+        padding: 24px 38px;
+    }
+}
