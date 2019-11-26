@@ -1,0 +1,122 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.mozilla-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 96px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.mozilla-image {
+  width: 31.3%;
+}
+
+.img-size {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.description {
+  padding: 8px;
+}
+h2 {
+  margin: 5px 0;
+  font-size: 24px;
+  font-family: "Zilla Slab", serif;
+  font-weight: bold;
+}
+h4 {
+  color: #42425a;
+  font-weight: 400;
+  font-size: 14px;
+}
+.mozilla-paragraph {
+  line-height: 1.5;
+}
+
+.mozilla-container-2 {
+  padding: 0px 96px;
+}
+.img4-size {
+  margin: -43px 0 -43px 160px;
+}
+
+.container2-content {
+  display: flex;
+  background: #ededf0;
+  position: relative;
+  margin: 96px 0px;
+}
+
+.container2-outer {
+  width: 354px;
+  height: 268px;
+  padding: 24px 8px;
+  font-size: 16px;
+  font-family: "Inter", serif;
+  position: absolute;
+  left: 550px;
+  text-align: center;
+}
+.heading-2 {
+  font-family: "Zilla Slab", serif;
+  font-size: 40px;
+  margin: 0px 0px 18px;
+  font-weight: bold;
+}
+.mozilla-paragraph-container2 {
+  font-family: "inter", serif;
+  font-size: 16px;
+  margin: 0px 0px 20px;
+  line-height: 1.5;
+}
+
+.mozilla-container-3 {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  padding: 0px 96px 24px;
+}
+.third-part1 {
+  width: 48.2%;
+}
+.img5-size {
+  width: 100%;
+}
+.mozilla-container a:hover {
+  text-decoration: underline;
+}
+
+.mozilla-image:hover {
+  box-shadow: 0 0 0 4px #ededf0;
+}
+.third-part1:hover {
+  box-shadow: 0 0 0 4px #ededf0;
+}
+.link {
+  text-decoration: underline;
+  color: #0060df;
+  font-weight: 700;
+}
+.mozilla-container-3 h2:hover {
+  text-decoration: underline;
+}
